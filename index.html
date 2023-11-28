@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Press+Start+2P&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/85d8e51f36.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="x-icon" href="images/weblogo.png">
+    <title>John Kenneth Remojo</title>
+</head>
+<body>
+	       <!-- navbar -->
+      <div id="header">
+          <div class="container">
+              <nav>
+                  <img src="images/logo.png" class="logo">
+                  <ul id="sidemenu">
+                      <li><a href="#header">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                      <i class="fas fa-times" onclick="closemenu()"></i>
+                  </ul>
+                  <i class="fas fa-bars" onclick="openmenu()"></i>
+              </nav>
+              <div class="header-text">
+                  <p>Aspiring Web Developer</p>
+                  <h1>I'm John<span> Kenneth</span> Remojo</h1>
+              </div>
+          </div>
+      </div>
+            <!-- about -->
+      <div id="about">
+          <div class="container">
+              <div class="row">
+                  <div class="about-col-1">
+                      <img src="images/poster.png" width="300" height="auto">
+                  </div>
+                  <div class="about-col-2">
+                      <h1 class="subt">About Me</h1>
+                      <p class="def">I'm an I.T student, navigating through a mix of programming and tech courses. My main gig is aspiring to become a web developer—I love building cool and user-friendly websites. Whether it's in class or on personal projects, I'm all about learning and creating in the world of web development.</p>
+
+                      <div class="tab-titles">
+                          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                          <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>LOREM</span><br>Lorem ipsum dolor sit amet</li>
+                            <li><span>LOREM</span><br>Lorem ipsum dolor sit amet</li>
+                            <li><span>LOREM</span><br>Lorem ipsum dolor sit amet</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>0000 - Current</span><br>Lorem ipsum dolor sit amet</li>
+                            <li><span>0000 - 0000</span><br>Lorem ipsum dolor sit amet</li>
+                            <li><span>0000 - 0000</span><br>Lorem ipsum dolor sit amet</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="education">   
+                        <ul>
+                            <li><span>Present</span><br>Nueva Ecija University of Science and Technology</li>
+                            <li><span>2020</span><br>Our Lady of Fatima University</li>
+                            <li><span>2017</span><br>General Tinio National High School</li>
+                            <li><span>2012</span><br>General Tinio East Central School</li>
+                        </ul>                                 
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+            <!-- portfolio -->
+      <div id="portfolio">
+          <div class="container">
+              <h1 class="subt">My Work</h1>
+              <div class="work-list">
+                  <div class="work">
+                      <img src="images/poet.jpg" width="600" height="400">
+                      <div class="layer">
+                          <h3>Poetry Workshop</h3>
+                          <p>Immerse yourself in the art of poetic expression at our workshop website—a creative space where aspiring poets discover guidance to refine their craft.</p>
+                          <a href="https://kdotzero999.github.io/WS02-MID01-POETRY/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                      <img src="images/gb.png" width="600" height="400">
+                      <div class="layer">
+                          <h3>Gumball Watterson</h3>
+                          <p>Embark on an adventure into the whimsical world of Gumball Watterson. Our website is a laughter-filled hub celebrating the mischievous charm of everyone's favorite blue cat.</p>
+                          <a href="https://kdotzero999.github.io/WS02-MID01/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                      <img src="images/kb.jpg" width="600" height="400">
+                      <div class="layer">
+                          <h3>The Analog Specialists</h3>
+                          <p>Unlock musical possibilities with our online keyboard shop and repair website. Discover quality instruments and expert services to harmonize your melodies perfectly.</p>
+                          <a href="https://kdotzero999.github.io/WS02-MID01-KEYBOARDS/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+            <!-- contact -->
+      <div id="contact">
+          <div class="container">
+             <div class="row">
+               <div class="contact-left">
+                   <h1 class="subt">Contact Me</h1>
+                   <p><i class="fas fa-envelope"></i> johnkennethremojo.neust@gmail.com</p>
+                   <p><i class="fas fa-phone-square-alt"></i> 0995-920-6818</p>
+                   <div class="social-icons">
+                       <a href="https://www.facebook.com/johnkenneth.remojo.7/" target="_blank"><i class="fab fa-facebook"></i></i></a>
+                       <a href="https://github.com/kdotzero999" target="_blank"><i class="fab fa-github"></i></i></a>
+                   </div>
+               </div> 
+               <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                       <input type="text" name="Name" placeholder="Type Your Name" required>
+                       <input type="email" name="Email" placeholder="Type Your Email" required>
+                       <textarea name="Message" rows="6" placeholder="Type Your Inquiry"></textarea>
+                       <button type="submit" class="btn">Submit</button>
+                   </form>
+                   <span id="confirm"></span>
+               </div> 
+             </div> 
+          </div>
+          <div class="footer">
+              <p>Made by John Kenneth Remojo &copy; 2023</p>
+          </div>
+      </div>
+
+<script type="text/javascript">
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of  tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of  tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script type="text/javascript">
+    
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzoPMp-poEHn1g21-qjAV3EzWxFFJ7tMWRoshqx66eIx5t-TD9nC4SJHgf5wKiDOA43/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const confirm = document.getElementById("confirm")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        confirm.innerHTML = "Your message has been sent successfully"
+        setTimeout(function(){
+            confirm.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
